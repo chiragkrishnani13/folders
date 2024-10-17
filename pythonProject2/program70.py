@@ -1,0 +1,5 @@
+sen = input("Enter a sentence ")
+sen = sen.lower()
+sorted_sen = sorted(sen)
+res = ",".join(sorted_sen)
+print(res, end=" ")
