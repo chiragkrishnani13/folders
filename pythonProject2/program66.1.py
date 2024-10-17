@@ -1,0 +1,10 @@
+x = input("Enter a  first word ")
+y = input("Enter a  second word ")
+x = x.upper()
+y = y.upper()
+print(x)
+print(y)
+sorted(x)
+sorted(y)
+if sorted(x) == sorted(y):
+    print("your statement is anagram ")
